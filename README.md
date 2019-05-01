@@ -1,6 +1,6 @@
-# Build a marketing site using Next.js
+# Testing Next.js apps
 
-This app demonstrates how you can build a marketing site using Next.js on the Front End and the API will be powered by ButterCMS. Next.js is a React.js framework which will do Server Side Rendering for you. As a result, your site will have better SEO score.
+This app demonstrates how you can test a Next.js app using Cypress.
 
 <img src="https://user-images.githubusercontent.com/6391763/54627869-47b56500-4a9a-11e9-812e-ddb71b56f56e.png" alt="Preview">
 
@@ -17,8 +17,8 @@ Please check out the Netlify demo at https://buttercms-marketing-site-nextjs-rea
 ## Development
 
 ```sh
-$ git clone https://github.com/ButterCMS/buttercms-marketing-site-nextjs-react
-$ cd buttercms-marketing-site-nextjs-react
+$ git clone https://github.com/ghoshnirmalya/testing-next.js-apps
+$ cd testing-next.js-apps
 $ yarn install
 ```
 
@@ -48,12 +48,21 @@ $ yarn export
 
 If you prefer `npm`, you can do `npm run export` instead of `yarn export`.
 
+#### Running Cypress
+
+```sh
+$ yarn run cypress open
+```
+
+If you prefer `npm`, you can do `npm run cypress open` instead of `yarn run cypress open`.
+
 ## Built With
 
 * [Blue](https://cruip.com/blue/) - Landing page template from [Cruip](https://cruip.com/).
 * [Next.js](https://nextjs.org/) - The React.js framework for building SSR web apps.
 * [React](https://facebook.github.io/react/) - A JavaScript library for building user interfaces
 * [Screely](https://www.screely.com/) - Instantly turn your screenshot into a beautiful design mockup
+* [Cypress](https://www.cypress.io/) - Fast, easy and reliable testing for anything that runs in a browser.
 
 ## License
 
